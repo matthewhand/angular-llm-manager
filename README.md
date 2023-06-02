@@ -10,7 +10,8 @@ Create an webapp hosted in AWS using AWS services.  The webapp will allow users 
 The chatbot will make use of a DIY hosted model i.e. GPT4All, Vicuna, FalconLM.
 The UI will have a dashboard with links to reports, contains summary metrics of how many instances launching, active, terminated.
 Other options include LLMs, configuration, help.
-LLMs UI will have a button to launch a deployment of a private LLM.  The creation form will have a form asking for the User for some basic details (ideally using drop down menues).
+LLMs UI will have a button to launch a deployment of a private LLM.  
+The creation form will have a form asking for the User for some basic details (ideally using drop down menues) including what type i.a. a static list of types that will be specified when calling a FlowiseAI instance. 
 It will also list current state of all LLMs i.e. launching, active, terminated.  There will be a button to terminate.
 Technical constraints are listed int he file CONTRAINTS.md.
 - create CONSTRAINTS.md with content:
