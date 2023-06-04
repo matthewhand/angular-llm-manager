@@ -1,8 +1,17 @@
+![Alt text](ARCHITECTURE.svg)
+
 ChatGpt these are your initial instructions...
-Update this file to include"
+
+Replace this section with:
 - link to and update TODO.md (where you will track tasks using '[x]' and '[ ]' notation).  Record in the TODO.md a permanent task called brainstorm TODO list updates.
 - link to and update PROJECT.md (where you will amend project progress)
-- link to and update DESIGN.md (where you will record your design decisions).  the first section will indicate notebooks have access to AWS credentials using the typical  environment variables.
+- link to and maintain a diagram ARCHITECTURE.svg that will reflect the current AWS infrastructure architecture at all times.  
+
+Hints:
+use Python to a) access the AWS API, and b) generate CloudFormation templates, deployed to the Github repo.
+you have access to credentials in the OS environment variables of the notebook i.e. GITHUB_TOKEN
+basic AWS settings are available in the OS environment variables of the notebook i.e. AWS_DEFAULT_REGION, AWS_ACCOUNT_ID, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY
+all AWS ARNs are to include a valid aws account id (check AWS_ACCOUNT_ID). replace XXX (and more X's) with the current aws account id (AWS_ACCOUNT_ID env var).
 
 Create GOAL.md with content:
 - Create an webapp hosted in AWS using AWS services.  The webapp will allow users to launch a private chatbot using a free large language model such as Oobabooga or LocalAI. 
@@ -16,8 +25,10 @@ Create GOAL.md with content:
 
 Create CONSTRAINTS.md with content:
 - Must use AWS Services Amplify, Cloudfront, WAF, App Sync, Cognito, App Gateway, S3, DynamoDb, Lambda, Step function.
-- Also AWS CodeBuild, CodePipeline, CloudFormation.
+- All AWS services will be configured by using AWS CDK.  But feel free to use boto3 to query AWS.
 - Python is preferred language for backend code in Lambda i.e. LLM Dispatcher.
 - NodeJS Typescript is preferred for frontend i.e. LLM Web UI.
 - Using React + Material-UI (MUI) design.
 - Ideally ECS or EKS Fargate for FlowiseAI chatbot.
+- notebooks have access to AWS credentials using the common names of environment variables for keys.
+
