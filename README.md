@@ -1,7 +1,13 @@
 
 # Angular LLM Manager
 
-This repository contains the implementation plans and code for the Angular LLM Manager project. The project aims to create a chatbot application using React, Material-UI, and various AWS services.
+The Angular LLM Manager project is a comprehensive chatbot management platform that enables users to easily create, manage, and deploy versatile chatbot instances across various domains and use cases. The primary objective of the application is to offer a user-friendly interface and a robust set of features, streamlining the process of developing and managing chatbots.
+
+Front-end: The application's front-end is developed using React, a popular JavaScript library for building interactive and performant user interfaces. React allows developers to create reusable UI components that can be easily managed and updated. Material-UI, another essential element of the front-end, is a React-based component library that follows the Material Design guidelines. Material-UI provides a wide range of pre-styled components, enabling consistent, professional, and visually appealing user interfaces that promote a seamless user experience.
+
+Back-end: The back-end infrastructure of the Angular LLM Manager project utilizes a suite of AWS (Amazon Web Services) technologies to create a secure, scalable, and high-performance environment. Amplify is a development platform that simplifies the process of deploying and managing AWS resources for the application. It integrates with various AWS services, streamlining the back-end deployment process.
+
+In summary, the Angular LLM Manager project is a powerful chatbot management solution, leveraging state-of-the-art front-end and back-end technologies to create a fast, feature-rich, and user-friendly platform for building and managing chatbot instances.
 
 Note: this project was almost entirely developed using ChatGPT + Noteable Plugin.
 
