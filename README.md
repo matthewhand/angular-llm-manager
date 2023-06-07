@@ -19,7 +19,7 @@ The Angular LLM Manager project is a chatbot application that allows users to cr
 
 ## Implementation Plan
 
-The implementation plan for the project is detailed in [implementation-plan.md](https://github.com/ChatGPT-Project/Implementation-Plans/blob/main/implementation-plan.md). The plan outlines the main steps involved in implementing the project, with each step linked to a detailed implementation plan.
+The implementation plan for the project is detailed in [implementation-plan.md](https://github.com/matthewhand/angular-llm-manager/blob/main/implementation-plan.md). The plan outlines the main steps involved in implementing the project, with each step linked to a detailed implementation plan.
 
 ## Getting Started
 
