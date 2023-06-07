@@ -17,6 +17,7 @@
    - [ ] e. Implement form validation and error handling using React hooks and MUI components like FormHelperText and Snackbar.
    - [ ] f. Create another file named 'ChatbotList.js' inside the 'components' folder.
    - [ ] g. Design a list view component to display existing chatbot instances using MUI components like List, ListItem, and ListItemText.
+   - [ ] h. Generate a mermaid diagram named user-interface.mmd that best explains the user interface design.
 
 - [ ]  Store and manage chatbot instances:
    - [ ] a. Install the AWS Amplify CLI by running `npm install -g @aws-amplify/cli`.
@@ -35,6 +36,7 @@
    - [ ] a. Run `amplify update api` to modify your AppSync API, then choose "Add another data source" and select your Lambda function as the new data source.
    - [ ] b. Modify the 'amplify/backend/api/{api_name}/schema.graphql' file to include a new mutation field that resolves to your Lambda function (e.g., createChatbotInstance(...): Chatbot!).
    - [ ] c. Update the 'amplify/backend/api/{api_name}/resolvers/Mutation.createChatbotInstance.req.vtl' and '.res.vtl' files to map the mutation input arguments to your Lambda function.
+   - [ ] d. Generate a mermaid diagram named appsync.mmd that best explains the Lambda integration with AppSync design.
 
 - [ ]  Deploy your application:
    - [ ] a. Run `amplify add hosting` to set up hosting with AWS Amplify Console, then choose a hosting provider (e.g., "Amazon S3 and AWS CloudFront").
