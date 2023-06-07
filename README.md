@@ -3,6 +3,8 @@
 
 This repository contains the implementation plans and code for the Angular LLM Manager project. The project aims to create a chatbot application using React, Material-UI, and various AWS services.
 
+Note: this project was almost entirely developed using ChatGPT + Noteable Plugin.
+
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
