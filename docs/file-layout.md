@@ -6,6 +6,7 @@ Organizing the project files using a well-defined structure is crucial for maint
 angular-llm-manager/
 │
 ├── docs/
+│   ├── file-layout.md (this file)
 │   ├── implementation-plan.md
 │   ├── architecture.md
 │   ├── api-design.md
