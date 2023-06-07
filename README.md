@@ -19,7 +19,7 @@ In summary, the Angular LLM Manager project is a powerful chatbot management sol
 
 Note: this project was almost entirely developed using ChatGPT + Noteable Plugin.
 
-## Aspirational Features
+### Aspirational Features
 
 - [ ] A. Integrating an analytics dashboard to track key metrics such as user engagement, chatbot performance, and overall usage. This will provide insights that can be utilized to optimize and improve the chatbot instances.
 
